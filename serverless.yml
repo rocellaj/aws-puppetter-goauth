@@ -8,14 +8,14 @@ provider:
 plugins:
   - serverless-plugin-chrome
   - serverless-offline
-  
+
 package:
   exclude:
     - node_modules/puppeteer/.local-chromium/**
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handler.getEmail
     memorySize: 1536MB
     timeout: 30
     events:
