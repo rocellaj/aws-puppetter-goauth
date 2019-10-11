@@ -14,7 +14,7 @@ package:
     - node_modules/puppeteer/.local-chromium/**
 
 functions:
-  hello:
+  getEmail:
     handler: handler.getEmail
     memorySize: 1536MB
     timeout: 30
